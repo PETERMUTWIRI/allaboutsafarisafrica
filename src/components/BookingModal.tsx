@@ -48,7 +48,7 @@ export function BookingModal({ isOpen, onClose, packageData }: BookingModalProps
     window.open(url, '_blank', 'noopener');
     onClose();
   }
-
+  // Handle sending the message via WhatsApp
   return (
     <AnimatePresence>
       {isOpen && (
